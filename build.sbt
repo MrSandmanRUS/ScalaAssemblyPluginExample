@@ -20,4 +20,4 @@ assemblyMergeStrategy in assembly := {
   case x => MergeStrategy.first
 }
 
-assemblyJarName in assembly := "data_mart_2.11-1.0.jar "
+assemblyJarName in assembly := "data_mart_2.11-1.0.jar"
