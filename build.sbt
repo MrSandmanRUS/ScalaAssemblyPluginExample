@@ -1,5 +1,5 @@
 lazy val commonSettings = Seq(
-  name := "data_mart",
+  name := "assembly_example",
   version := "1.0",
   scalaVersion := "2.11.12",
   libraryDependencies += "org.apache.spark" %%  "spark-core" % "2.4.6",
@@ -20,4 +20,4 @@ assemblyMergeStrategy in assembly := {
   case x => MergeStrategy.first
 }
 
-assemblyJarName in assembly := "data_mart_2.11-1.0.jar"
+assemblyJarName in assembly := "assembly_example_2.11-1.0.jar"
