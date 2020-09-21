@@ -1,0 +1,2 @@
+# ScalaAssemblyPluginExample
+ScalaAssemblyPluginExample
